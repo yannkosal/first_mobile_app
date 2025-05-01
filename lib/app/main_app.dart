@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_app/screen/home_screen.dart';
-import 'package:flutter_app/screen/login_screen.dart';
+import 'package:flutter_app/screens/row_column_screen.dart';
 
 class MainApp extends StatefulWidget {
   const MainApp({super.key});
@@ -14,7 +13,7 @@ class _MainAppState extends State<MainApp> {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: LoginScreen(),
+      home: RowColumnScreen(),
     );
   }
 }
