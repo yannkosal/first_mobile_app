@@ -16,10 +16,30 @@ class _RowColumnScreenState extends State<RowColumnScreen> {
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
           Expanded(
-            child: Image.asset("assets/images/1.jpg"),
+            child: Container(
+              width: double.infinity,
+              height: double.infinity,
+              decoration: BoxDecoration(
+                color: Colors.white,
+              ),
+              child: Column(
+                children: [
+                  Image.asset("assets/images/1.jpg", height: 200,), Text("Hello World"),
+                  Padding(
+                    padding: const EdgeInsets.only(left:16.0, right: 16.0),
+                    child: Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      children: [
+                        Icon(Icons.heart_broken),
+                        Icon(Icons.share),
+                      ],
+                    ),
+                  )
+                ],
+              ),
+            ),
           ),
           Expanded(
-            flex: 1,
             child: Image.asset("assets/images/2.jpg"),
           ),
           Expanded(
