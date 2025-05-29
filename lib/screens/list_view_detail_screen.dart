@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_app/model/employee.dart';
 
+// ignore: must_be_immutable
 class ListViewDetailScreen extends StatefulWidget {
   Employee? employee;
   ListViewDetailScreen({super.key, required this.employee});

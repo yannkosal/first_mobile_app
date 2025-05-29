@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_app/model/employee.dart';
 import 'package:flutter_app/screens/employee/form_employee_screen.dart';
-import 'package:flutter_app/screens/list_view_detail_screen.dart';
 
 class ListViewScreen extends StatefulWidget {
   const ListViewScreen({super.key});

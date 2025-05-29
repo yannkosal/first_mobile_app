@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_app/model/employee.dart';
 import 'package:flutter_app/widgets/custom_input_widget.dart';
 
+// ignore: must_be_immutable
 class FormEmployeeScreen extends StatefulWidget {
   Employee? employee;
   FormEmployeeScreen({super.key, this.employee});

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+// ignore: must_be_immutable
 class CustomInputWidget extends StatefulWidget {
   String? labelText,hintText;
   Icon? prefixIcon;
